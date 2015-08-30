@@ -1,0 +1,29 @@
+{
+  "sportsInfoMap": {
+    "Cricket": {
+      "sportsName": "Cricket",
+      "sportsImageName": "cricketlogo.jpg",
+      "sportsActive": "true"
+    },
+    "Tennis": {
+      "sportsName": "Tennis",
+      "sportsImageName": "tennislogo.jpg",
+      "sportsActive": "false"
+    },
+    "WWE": {
+      "sportsName": "WWE",
+      "sportsImageName": "tennislogo.jpg",
+      "sportsActive": "false"
+    },
+    "Football": {
+      "sportsName": "Football",
+      "sportsImageName": "footballlogo.jpg",
+      "sportsActive": "false"
+    },
+    "Badminton": {
+      "sportsName": "Badminton",
+      "sportsImageName": "badmintonlogo.jpg",
+      "sportsActive": "false"
+    }
+  }
+}

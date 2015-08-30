@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">The Scorer</string>
+    <string name="WelcomeToTheScorer">Welcome to The Scorer</string>
+    <string name="WelcomeTag">- An Easy Tournament manager</string>
+    <string name="SelectTourna">Select your sports</string>
+    <string name="action_settings">Settings</string>
+    <string name="Next">Next</string>
+    <string name="title_activity_tournament_home_page">TournamentHomePageActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tournament_name">Tournament Name</string>
+    <string name="organizer_name">Organizer Name</string>
+    <string name="organizer_mobile">Mobile Number</string>
+    <string name="max_no_teams">Max no. of teams</string>
+    <string name="sponsor">Sponsor</string>
+    <string name="max_overs">Maximum Overs</string>
+    <string name="ball_type">Ball Used</string>
+    <string name="winner_price">Winner Price</string>
+    <string name="runner_price">Runner Price</string>
+    <string name="third_price">Third Price</string>
+    <string name="start_date">Start Date</string>
+    <string name="email">Email</string>
+    <string name="start_tournament">Start Tournament</string>
+    <string-array name="ball_type">
+        <item>Tennis</item>
+        <item>Stumper</item>
+        <item>Tennis Cork</item>
+        <item>Red Cricket Ball</item>
+        <item>White Cricket Ball</item>
+        <item>Plastic</item>
+    </string-array>
+    <string name="no_tournaments">No ongoing tournaments!!</string>
+    <string name="create_new_match">Lets start a new match!!!</string>
+    <string name="form_teams">Form Teams:</string>
+    <string name="no_info_available">No Information available</string>
+    <string name="form_team">Form a Team</string>
+    <string name="create_tournament">Create Now</string>
+</resources>

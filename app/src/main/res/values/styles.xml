@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="ViewHeader" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BC3A13</item>
+        <item name="android:textSize">55px</item>
+    </style>
+    <style name="WelcomeTag" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BC3A13</item>
+        <item name="android:textSize">30px</item>
+    </style>
+    <style name="SelectTourna" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BC3A13</item>
+        <item name="android:textSize">45px</item>
+        <item name="android:paddingTop">30px</item>
+        <item name="android:paddingBottom">30px</item>
+    </style>
+    <style name="sectionHeaders" parent="Base.TextAppearance.AppCompat.Title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/accent_material_dark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">45px</item>
+        <item name="android:paddingTop">30px</item>
+        <item name="android:paddingBottom">30px</item>
+    </style>
+</resources>

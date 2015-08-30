@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        style="@style/WelcomeTag"
+        android:text="@string/create_new_match"/>
+    <TextView
+        style="@style/sectionHeaders"
+        android:text="@string/form_teams"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/screen_divided_padding">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_info_available"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_dp"
+                android:text="@string/form_team"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_info_available"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_dp"
+                android:text="@string/form_team"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
