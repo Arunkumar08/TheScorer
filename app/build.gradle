@@ -19,7 +19,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.worksofarun.thescorer"
+        applicationId "com.thescorer"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
