@@ -23,7 +23,7 @@
     "Badminton": {
       "sportsName": "Badminton",
       "sportsImageName": "badmintonlogo.jpg",
-      "sportsActive": "false"
+      "sportsActive": "true"
     }
   }
 }
