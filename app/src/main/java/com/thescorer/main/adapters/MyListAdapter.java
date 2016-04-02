@@ -6,8 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 
-import com.thescorer.main.service.adapterServices.AdapterViewLoaderService;
-import com.thescorer.main.service.viewservices.ViewLoaderService;
+import com.thescorer.main.service.adapterServices.AbstractAdapterViewLoaderService;
 
 import java.util.List;
 
@@ -19,12 +18,12 @@ public class MyListAdapter<T> implements ListAdapter {
     Context context = null;
     List<T> items;
     AdapterTypeEnum adapterType;
-    AdapterViewLoaderService viewLoaderService;
+    AbstractAdapterViewLoaderService viewLoaderService;
 
     public MyListAdapter(final Context context,
                          final List<T> items ,
                          final AdapterTypeEnum adapterType,
-                         final ViewLoaderService viewLoaderService) {
+                         final AbstractAdapterViewLoaderService viewLoaderService) {
         this.context = context;
         this.items = items;
         this.adapterType = adapterType;
@@ -73,7 +72,7 @@ public class MyListAdapter<T> implements ListAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        return viewLoaderService.loadViewForAdapter(position, convertView, parent);
+        return viewLoaderService.loadViewForAdapter(context, items, position, parent);
     }
 
     @Override

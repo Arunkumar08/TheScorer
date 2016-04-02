@@ -14,7 +14,6 @@ import com.thescorer.main.jsonpojos.SportsInfo;
 import com.thescorer.main.jsonpojos.SportsInfoWrapper;
 import com.thescorer.main.data.service.impl.JsonFileLoaderService;
 import com.thescorer.main.service.adapterServices.AbstractAdapterViewLoaderService;
-import com.thescorer.main.service.adapterServices.AdapterViewLoaderService;
 import com.thescorer.main.service.adapterServices.SportsTypeListAdapterServiceImpl;
 import com.thescorer.main.viewhelpers.FileConstants;
 import com.thescorer.main.viewhelpers.ViewTypeEnum;

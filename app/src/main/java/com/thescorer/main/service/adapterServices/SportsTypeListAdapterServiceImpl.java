@@ -22,20 +22,9 @@ public class SportsTypeListAdapterServiceImpl extends AbstractAdapterViewLoaderS
     public View loadViewForAdapter(Context context, List items, int position, ViewGroup parent) {
         View rowView = inflater.inflate(R.layout.sportstypelayout, parent, false);
         Button button = (Button) rowView.findViewById(R.id.buttonSports);
-        SportsInfo rowInfo = (SportsInfo)items.get(position);
+        SportsInfo rowInfo = (SportsInfo) items.get(position);
         button.setText(rowInfo.getSportsName());
         button.setEnabled(rowInfo.getSportsActive());
         return rowView;
-    }
-
-    @Override
-    public View loadView() {
-        View rowView = inflater.inflate(R.layout.sportstypelayout, parent, false);
-        Button button = (Button) rowView.findViewById(R.id.buttonSports);
-        SportsInfo rowInfo = (SportsInfo)items.get(position);
-        button.setText(rowInfo.getSportsName());
-        button.setEnabled(rowInfo.getSportsActive());
-        return rowView;
-        return null;
     }
 }
